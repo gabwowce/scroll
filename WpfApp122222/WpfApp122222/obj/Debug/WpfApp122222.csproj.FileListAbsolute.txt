@@ -14,3 +14,4 @@ C:\Users\tamaseg\source\repos\WpfApp122222\WpfApp122222\obj\Debug\WpfApp122222.c
 C:\Users\tamaseg\source\repos\WpfApp122222\WpfApp122222\obj\Debug\WpfApp122222.csproj.CoreCompileInputs.cache
 C:\Users\tamaseg\source\repos\WpfApp122222\WpfApp122222\obj\Debug\WpfApp122222.exe
 C:\Users\tamaseg\source\repos\WpfApp122222\WpfApp122222\obj\Debug\WpfApp122222.pdb
+C:\Users\tamaseg\source\repos\WpfApp122222\WpfApp122222\obj\Debug\GeneratedInternalTypeHelper.g.cs

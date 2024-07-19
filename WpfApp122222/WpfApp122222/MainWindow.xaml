@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp122222"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="300">
-    <Grid >
+        Title="MainWindow" Height="450" Width="1200">
+    <!--<Grid >
         <ScrollViewer Background="#F7F7F7"
 
                       BorderBrush="#C7C7C7"
@@ -30,5 +30,42 @@
         
 
 
+    </Grid>-->
+
+
+   <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <ScrollViewer Grid.Column="0" 
+                      x:Name="MyScrollViewer"
+                      Background="#F7F7F7"
+                      BorderBrush="#C7C7C7"
+                      Height="300"
+                      HorizontalScrollBarVisibility="Auto"
+                      Margin="10"
+                      VerticalScrollBarVisibility="Auto"
+                      Width="500"
+                      Tag="img/scrollBar.png"> 
+            <Image Height="350" Source="img/img.png" Stretch="Fill" Width="700"/>
+        </ScrollViewer>
+
+
+        <ScrollViewer Grid.Column="1" 
+              x:Name="MyScrollViewer2"
+              Background="#F7F7F7"
+              BorderBrush="#C7C7C7"
+              Height="300"
+              HorizontalScrollBarVisibility="Auto"
+              Margin="10"
+              VerticalScrollBarVisibility="Auto"
+              Width="500">
+            <Image Height="500" Source="img/img.png" Stretch="Fill" Width="700"/>
+        </ScrollViewer>
+       
+       
     </Grid>
+
+   
 </Window>

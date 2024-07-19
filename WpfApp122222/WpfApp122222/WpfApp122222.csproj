@@ -55,6 +55,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ScrollBarThumbStyleConverter .cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -94,9 +95,20 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="img\scrollBar.png" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="img\img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\scrollBar_long_Bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\ErrorTextField.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\key_type_internal.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
